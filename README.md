@@ -1,16 +1,6 @@
 # Module EavRemover
 
 ### Installation
-#### Developer mode
-```sh
-$ php bin/magento module:enable Iamunozz_EavRemover --clear-static-content
-$ php bin/magento setup:upgrade
-$ php bin/magento setup:di:compile
-$ php bin/magento setup:static-content:deploy -f
-```
-
-#### Production mode
-```sh
 $ php bin/magento module:enable Iamunozz_EavRemover --clear-static-content
 $ php bin/magento setup:upgrade
 $ php bin/magento setup:di:compile
