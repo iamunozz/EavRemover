@@ -1,6 +1,7 @@
 # Module EavRemover
 
 ### Installation
+```sh
 $ php bin/magento module:enable Iamunozz_EavRemover --clear-static-content
 $ php bin/magento setup:upgrade
 $ php bin/magento setup:di:compile
