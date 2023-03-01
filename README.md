@@ -6,7 +6,6 @@
 $ php bin/magento module:enable Iamunozz_EavRemover --clear-static-content
 $ php bin/magento setup:upgrade
 $ php bin/magento setup:di:compile
-$ rm -rf var/di var/view_preprocessed var/cache generated/*
 $ php bin/magento setup:static-content:deploy -f
 ```
 
