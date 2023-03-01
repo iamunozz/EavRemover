@@ -1,0 +1,28 @@
+{
+    "name": "iamunozz/eavremover",
+    "description": "cli command for delete a eav attributes",
+    "require": {
+      "php": ">=7.3",
+      "magento/magento2-base": "~2.3"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ignacio Muñoz"
+        }
+    ],
+    "license": [
+      "MIT"
+    ],
+    "autoload": {
+      "psr-4": {
+        "Iamunozz\\EavRemover\\": ""
+      },
+      "files": [
+        "registration.php"
+      ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
